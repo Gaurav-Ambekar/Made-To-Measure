@@ -1,8 +1,11 @@
 {
   "name": "made-to-measure",
   "version": "0.1.0",
+  "homepage": "http://server6.interlinkconsultant.com/mtm/",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
@@ -10,10 +13,16 @@
     "@types/node": "^12.12.53",
     "@types/react": "^16.9.44",
     "@types/react-dom": "^16.9.8",
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "formik": "^2.1.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
-    "typescript": "^3.7.5"
+    "swr": "^0.3.0",
+    "typescript": "^3.7.5",
+    "yup": "^0.29.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -35,5 +44,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/material-ui": "^0.21.7",
+    "@types/react-router-dom": "^5.1.5",
+    "@types/yup": "^0.29.3"
   }
 }
